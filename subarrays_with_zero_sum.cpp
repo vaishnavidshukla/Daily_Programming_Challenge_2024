@@ -9,10 +9,12 @@ int main(){
     int n ;
     cout<<"Enter the size of array: ";
     cin>>n;
+    int num;
 
     cout<<"Enter elements of array: ";
     for(int i=0;i<n;i++){
-        cin>>a[i];
+        cin>>num;
+        a.push_back(num);
     }
     int start = 0;
     int end = 1;
